@@ -1,3 +1,13 @@
 img {
-    height: 200px;
+    height: 400px;
 }
+
+div {
+    width: 80%;
+    justify-content: center;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    }
