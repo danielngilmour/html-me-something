@@ -1,23 +1,64 @@
 /*My Last Trip Before covid-19 Stylesheet
-Some styles adapted from the following sources:
-https://www.w3schools.com/css/css_navbar_horizontal.asp
 */
 
 body {
-    background-color: lightcyan;
-    font-family: 'Arial', sans-serif;
+    background-color: none;
+    font-family: Verdana,sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+h1,h2,h3 {
+    text-align: center;
 }
 
 div {
     width: 80%;
-    justify-content: center;
-    padding: 20px;
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ul {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+figure {
+    padding: 10px;
+    display: table;
+}
+
+figcaption {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    display: table-caption;
+    caption-side: bottom;
 }
 
 img {
-    width:80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(63, 63, 63);
+    width: 100%;
+    display: block;
+    margin: auto;
 }
 
+#headshot {
+    width: 30%;
+}
+
+/* Navigation Bar Formatting adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp */
 .NavBar {
     background-color: #333;
 }
