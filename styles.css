@@ -23,13 +23,13 @@ div {
 }
 
 p {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 ul {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 figure {
@@ -43,13 +43,14 @@ figcaption {
     font-weight: bold;
     display: table-caption;
     caption-side: bottom;
+    width: 70%;
 }
 
 img {
     border-style: solid;
     border-width: 1px;
     border-color: rgb(63, 63, 63);
-    width: 100%;
+    width: 70%;
     display: block;
     margin: auto;
 }
